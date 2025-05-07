@@ -10,14 +10,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#243642"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="68dp"
+            android:background="#629584"
+            android:backgroundTint="#629584"
             android:gravity="center"
             android:text="Manutenção"
+            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -27,7 +31,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="ID"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#BFBBA9" />
 
         <EditText
             android:id="@+id/edtNome"
@@ -35,7 +40,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Nome"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#BFBBA9" />
 
         <EditText
             android:id="@+id/edtCpf"
@@ -43,7 +49,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="CPF"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#BFBBA9" />
 
         <EditText
             android:id="@+id/edtTelefone"
@@ -51,7 +58,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Telefone"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#BFBBA9" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,6 +74,7 @@
                 android:layout_marginTop="80dp"
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#629584"
                 android:text="Atualizar" />
 
             <Button
@@ -76,6 +85,7 @@
                 android:layout_marginTop="80dp"
                 android:layout_marginEnd="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#629584"
                 android:text="Excluir" />
         </LinearLayout>
 
@@ -86,6 +96,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
+            android:backgroundTint="#629584"
             android:onClick="voltar"
             android:text="Voltar" />
 

@@ -90,7 +90,9 @@ public class TelaCadastro extends AppCompatActivity {
     }
 
     public void voltar(View view) {
-        startActivity(new Intent(this, MainActivity.class));
+        //Esta dando erro nesta parte de voltar a tela inicial
+        startActivity(new Intent(TelaCadastro.this, MainActivity.class));
+
     }
 }
 
